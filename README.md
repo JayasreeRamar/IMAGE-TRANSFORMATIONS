@@ -110,7 +110,8 @@ plt.axis('off')
 plt.show()
 ```
 ## Output:
-<img width="612" height="687" alt="Screenshot 2025-09-08 111832" src="https://github.com/user-attachments/assets/390e1989-c1bb-416d-b5d3-fbabdd80b4fa" />
+<img width="1096" height="854" alt="Screenshot 2025-09-13 103029" src="https://github.com/user-attachments/assets/0d4c816b-6f02-46d5-a1ef-6f0c159ac4c9" />
+
 
 ## Result: 
 
