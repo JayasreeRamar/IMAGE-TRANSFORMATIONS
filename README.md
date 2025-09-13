@@ -71,32 +71,32 @@ plt.figure(figsize=(12, 8))
 
 plt.subplot(2, 3, 1)
 plt.imshow(image_rgb)
-plt.title("Original Image")
+plt.title("Original")
 plt.axis('off')
 
 plt.subplot(2, 3, 2)
 plt.imshow(translated_image)
-plt.title("Translated Image")
+plt.title("Translated")
 plt.axis('off')
 
 plt.subplot(2, 3, 3)
 plt.imshow(scaled_image)
-plt.title("Scaled Image")
+plt.title("Scaled")
 plt.axis('off')
 
 plt.subplot(2, 3, 4)
 plt.imshow(sheared_image)
-plt.title("Sheared Image")
+plt.title("Sheared")
 plt.axis('off')
 
 plt.subplot(2, 3, 5)
 plt.imshow(reflected_image)
-plt.title("Reflected Image")
+plt.title("Reflected")
 plt.axis('off')
 
 plt.subplot(2, 3, 6)
 plt.imshow(rotated_image)
-plt.title("Rotated Image")
+plt.title("Rotated")
 plt.axis('off')
 
 plt.tight_layout()
@@ -105,7 +105,7 @@ plt.show()
 # Plot cropped image separately as its aspect ratio may be different
 plt.figure(figsize=(4, 4))
 plt.imshow(cropped_image)
-plt.title("Cropped Image")
+plt.title("Cropped")
 plt.axis('off')
 plt.show()
 ```
